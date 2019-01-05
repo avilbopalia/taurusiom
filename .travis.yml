@@ -6,4 +6,4 @@ script:
 install:
  — npm install -g firebase-tools
 after_success:
- — firebase deploy  — project taurusion  — token 1/7LII40hl2kj5IUQ1RPa4krRe9O-HJcxDzb6mFYz_Tow
+ — firebase deploy  — project taurusion  — token $FIREBASE_TOKEN
